@@ -9,7 +9,7 @@
 
 *   Não foi realizado uma codificação, limpa, com boas praticas, devido a falta de experincia com a ferramenta Cypress, ao todo demorei 8 dias para realizar essa tarefa;<br><br><br><br>
 
-Plugins Instalados, a parte foi o;<br>   
+Plugins Instalados, a parte foi;<br>   
 npm install body-parser --save<br>
 npm install -D cypress-xpath<br><br><br><br><br>
 
