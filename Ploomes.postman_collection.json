@@ -1,0 +1,314 @@
+{
+	"info": {
+		"_postman_id": "0f3af4f4-859b-4291-b625-a7d574618ff1",
+		"name": "Ploomes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Contacts",
+			"item": [
+				{
+					"name": "GET API",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "user-Key",
+								"value": "BD022D3DE9A8BF8A932EFE9C297E16CBF80BEF8D590798AECC3A4DDE103F07CCA7DCDE57E87390A5746C1C53887D27A2ED8EB6C1177064A2425388692055CE66",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api2.ploomes.com/Contacts",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"ploomes",
+								"com"
+							],
+							"path": [
+								"Contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST API",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user-Key",
+								"value": "BD022D3DE9A8BF8A932EFE9C297E16CBF80BEF8D590798AECC3A4DDE103F07CCA7DCDE57E87390A5746C1C53887D27A2ED8EB6C1177064A2425388692055CE66",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Teste API Ploomes\",\r\n    \"Neighborhood\": \"Pinheiros\",\r\n    \"ZipCode\": 0,\r\n    \"Register\": \"69.971.558/0001-10\",\r\n    \"OriginId\": 0,\r\n    \"CompanyId\": null,\r\n    \"StreetAddressNumber\": \"XXX\",\r\n    \"TypeId\": 0,\r\n    \"Phones\": [\r\n        {\r\n            \"PhoneNumber\": \"(11) 1111-1111\",\r\n            \"TypeId\": 0,\r\n            \"CountryId\": 0\r\n        }\r\n    ],\r\n    \"OtherProperties\": [\r\n        {\r\n            \"FieldKey\": \"{fieldKey}\",\r\n            \"StringValue\": \"texto exemplo\"\r\n        },\r\n        {\r\n            \"FieldKey\": \"{fieldKey}\",\r\n            \"IntegerValue\": 2\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api2.ploomes.com/Contacts",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"ploomes",
+								"com"
+							],
+							"path": [
+								"Contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE API",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "user-Key",
+								"value": "BD022D3DE9A8BF8A932EFE9C297E16CBF80BEF8D590798AECC3A4DDE103F07CCA7DCDE57E87390A5746C1C53887D27A2ED8EB6C1177064A2425388692055CE66",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api2.ploomes.com/Contacts(400551006)",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"ploomes",
+								"com"
+							],
+							"path": [
+								"Contacts(400551006)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT API",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "user-Key",
+								"value": "BD022D3DE9A8BF8A932EFE9C297E16CBF80BEF8D590798AECC3A4DDE103F07CCA7DCDE57E87390A5746C1C53887D27A2ED8EB6C1177064A2425388692055CE66",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Teste API Ploomes PUT\",\r\n    \"Neighborhood\": \"Pinheiros\",\r\n    \"ZipCode\": 0,\r\n    \"Register\": \"69.971.558/0001-10\",\r\n    \"OriginId\": 0,\r\n    \"CompanyId\": null,\r\n    \"StreetAddressNumber\": \"XXX\",\r\n    \"TypeId\": 0,\r\n    \"Phones\": [\r\n        {\r\n            \"PhoneNumber\": \"(11) 1111-1111\",\r\n            \"TypeId\": 0,\r\n            \"CountryId\": 0\r\n        }\r\n    ],\r\n    \"OtherProperties\": [\r\n        {\r\n            \"FieldKey\": \"{fieldKey}\",\r\n            \"StringValue\": \"texto exemplo\"\r\n        },\r\n        {\r\n            \"FieldKey\": \"{fieldKey}\",\r\n            \"IntegerValue\": 2\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api2.ploomes.com/Contacts(400545180)",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"ploomes",
+								"com"
+							],
+							"path": [
+								"Contacts(400545180)"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Deals",
+			"item": [
+				{
+					"name": "PUT API",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "user-Key",
+								"value": "BD022D3DE9A8BF8A932EFE9C297E16CBF80BEF8D590798AECC3A4DDE103F07CCA7DCDE57E87390A5746C1C53887D27A2ED8EB6C1177064A2425388692055CE66",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Title\": \"Novo Negócio PUTPUT\",\r\n    \"ContactId\": 0,\r\n    \"Amount\": 20,\r\n    \"StageId\": 0,\r\n    \"OtherProperties\": [\r\n        {\r\n            \"FieldKey\": \"{fieldKey}\",\r\n            \"StringValue\": \"texto exemplo\"\r\n        },\r\n        {\r\n            \"FieldKey\": \"{fieldKey}\",\r\n            \"IntegerValue\": 2\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api2.ploomes.com/Deals({400218345})",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"ploomes",
+								"com"
+							],
+							"path": [
+								"Deals({400218345})"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE API",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "user-Key",
+								"value": "BD022D3DE9A8BF8A932EFE9C297E16CBF80BEF8D590798AECC3A4DDE103F07CCA7DCDE57E87390A5746C1C53887D27A2ED8EB6C1177064A2425388692055CE66",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api2.ploomes.com/Deals(Id)",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"ploomes",
+								"com"
+							],
+							"path": [
+								"Deals(Id)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST API",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "user-Key",
+								"value": "BD022D3DE9A8BF8A932EFE9C297E16CBF80BEF8D590798AECC3A4DDE103F07CCA7DCDE57E87390A5746C1C53887D27A2ED8EB6C1177064A2425388692055CE66",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Title\": \"Novo Negócio PUT\",\r\n    \"ContactId\": 0,\r\n    \"Amount\": 20,\r\n    \"StageId\": 0,\r\n    \"OtherProperties\": [\r\n        {\r\n            \"FieldKey\": \"{fieldKey}\",\r\n            \"StringValue\": \"texto exemplo\"\r\n        },\r\n        {\r\n            \"FieldKey\": \"{fieldKey}\",\r\n            \"IntegerValue\": 2\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api2.ploomes.com/Deals",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"ploomes",
+								"com"
+							],
+							"path": [
+								"Deals"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET API",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "user-Key",
+								"value": "BD022D3DE9A8BF8A932EFE9C297E16CBF80BEF8D590798AECC3A4DDE103F07CCA7DCDE57E87390A5746C1C53887D27A2ED8EB6C1177064A2425388692055CE66",
+								"type": "default"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "default",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api2.ploomes.com/Deals",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"ploomes",
+								"com"
+							],
+							"path": [
+								"Deals"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
