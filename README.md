@@ -13,6 +13,7 @@ Plugins Instalados, a parte foi;<br>
 npm install body-parser --save<br>
 npm install -D cypress-xpath<br><br><br><br><br>
 
-Melhoras no sistema; Necessario alteraralguns campos, devido estar com id e xpath dinamicos, prejudicando a automação.</h2>
+Melhoras no sistema;<br>
+Necessario alterar alguns campos, devido estar com id e xpath dinamicos, prejudicando a automação.</h2>
 
 
